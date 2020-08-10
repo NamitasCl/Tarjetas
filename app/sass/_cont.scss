@@ -1,0 +1,124 @@
+.contenido {
+    margin-bottom: 60px;
+}
+
+.cont {
+
+    &__titulo {
+        width: 19rem;
+        margin: 60px auto;
+        text-align: center;
+        
+
+        h1 {
+            font-weight: 300;
+            font-size: 23px;
+            color:$veryDarkBlue;
+        }
+
+        h2 {
+            font-size: 23px;
+            margin-bottom: 20px;
+            color:$veryDarkBlue;
+        }
+
+        p {
+            color: $grayishBlue;
+            
+        }
+    }
+
+    &__tarjetas {    
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .medio {
+            
+            div:first-child {
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 25px;
+            }
+
+            div:last-child {
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+
+        }
+    
+        & .tarjeta {
+
+            width: 300px;
+            height: 220px;
+            margin: 0;
+            border-radius: 5px;
+            box-shadow: 0px 7px 20px -4px $grayishBlue;
+            padding: 20px 43px 0 25px;
+            margin: 25px;
+        
+
+            
+            
+            h2 {
+                font-size: 20px;
+                text-align: left;
+                color: $veryDarkBlue;
+            }
+
+            p {
+                font-size: 12px;
+                text-align: left;
+                color: $grayishBlue;
+                line-height: 2;
+                margin-top: 5px;
+            }
+
+            img {
+                margin-top: 20px;
+                margin-right: -20px;
+            }
+
+        }
+
+        & .tarjeta1 {
+            border-top: 3px solid $cyan;
+            text-align: right;
+
+            
+        }
+
+        & .tarjeta2 {
+            border-top: 3px solid $red;
+            text-align: right;
+
+            img {
+                margin-top: 20px;
+                margin-right: -20px;
+            }
+        }
+
+        & .tarjeta3 {
+            border-top: 3px solid $orange;
+            text-align: right;
+
+            img {
+                margin-top: 20px;
+                margin-right: -20px;
+            }
+        }
+
+        & .tarjeta4 {
+            border-top: 3px solid $blue;
+            text-align: right;
+        }
+
+    }
+
+}

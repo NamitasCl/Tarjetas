@@ -1,0 +1,7 @@
+$breakpoints: ("mobile": "23.4375em", "desktop" : "75em");
+
+@mixin cambio-pantalla($size) {
+    @media (max-width: map-get($breakpoints, $size)){
+        @content;
+    }
+}
